@@ -1,10 +1,11 @@
 h1 {
-  color: black;
+  color:black;
   text-align: center;
+
 }
 header {
   height: 150px;
-  background-color: beige;
+  background-image: url(heading1.png);
 }
 body {
   margin: 0px;
@@ -15,7 +16,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: white;
 }
 
 li {
@@ -24,16 +25,23 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 20px 40px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-image: url(Off-White-FV9702.jpg);
 }
 
 .active {
-  background-color: green;
+  background-image: url(Off-White-FV9702.jpg) ;
+}
+  
+body {
+  background-image: url(achtergrond.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
